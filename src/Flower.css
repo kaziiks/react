@@ -1,0 +1,31 @@
+.flower {
+  border: 2px solid #8b0000;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  margin: 16px;
+  background-color: #fff0f5;
+}
+
+.flower h2 {
+  color: #8b0000;
+}
+
+.flower button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flower button:hover {
+  background-color: #ff1493;
+}
+
+.flower button:disabled {
+  background-color: #ffc0cb;
+  cursor: not-allowed;
+}
